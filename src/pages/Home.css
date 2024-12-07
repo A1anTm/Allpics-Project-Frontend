@@ -1,0 +1,154 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #F2F2F2;
+}
+
+  /* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffe3c0;
+}
+
+.header h1 {
+    color: #00b3b3;
+}
+
+.buttons button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.login-button {
+    background-color: transparent;
+    color: #00b3b3;
+    border: 2px solid #00b3b3;
+}
+
+.register-button {
+    background-color: #00b3b3;
+    color: white;
+}
+
+  /* Hero Section */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 40px;
+}
+
+.logo-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F3E2E2;
+    padding: 0px 45px 0px 45px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo-image {
+    width: 380px;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    margin-top: 40px;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Footer - Subscription Section */
+.subscription-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.subscription-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F3E2E2;
+    border-radius: 30px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    max-width: 800px;
+}
+
+.subscription-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.subscription-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.subscription-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    padding-top: 18px;
+}
+
+.features-list {
+    list-style: none;
+    margin: 0;
+    padding-left: 140px;
+    font-size: 14px;
+    color: #555;
+}
+
+.features-list li {
+    margin-bottom: 5px;
+}
+
+  /* Arrow Buttons */
+.arrow-button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+    padding: 0 10px;
+}
+
+.arrow-button:hover {
+    color: #555;
+}
+
+.arrow-button.left {
+    transform: rotate(0deg);
+}
+
+.arrow-button.right {
+    transform: rotate(0deg);
+}
+
+.logo-text {
+    color: #00b3b3;
+    font-size: 40px;
+}
